@@ -3194,28 +3194,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <text x="-4.175" y="3.825" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.175" y="-5.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="INDUCTOR-NR3015">
-<smd name="1" x="-1.1" y="0" dx="2.7" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="1.1" y="0" dx="2.7" dy="0.8" layer="1" rot="R90"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="0.484" y1="-1.5" x2="-0.484" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-0.484" y1="1.5" x2="0.484" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="0.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="0.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-</package>
-<package name="INDUCTOR-VLS-E">
-<smd name="P$1" x="-1" y="0" dx="3" dy="1" layer="1" rot="R90"/>
-<smd name="P$2" x="1" y="0" dx="3" dy="1" layer="1" rot="R90"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-0.3" y1="1.5" x2="0.3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="-1.5" x2="0.3" y2="-1.5" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -8678,26 +8656,6 @@ SRN6045- 33uH, 20% 1.4A</description>
 <attribute name="PROD_ID" value="NDUC-11627"/>
 <attribute name="VALUE" value="33uH"/>
 </technology>
-</technologies>
-</device>
-<device name="NR3015T4R7M" package="INDUCTOR-NR3015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="NR3015T4R7M" value="4.7uH" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="VLS3012ET-4R7M" package="INDUCTOR-VLS-E">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
