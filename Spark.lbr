@@ -3216,6 +3216,22 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="-0.3" y1="1.5" x2="0.3" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-0.3" y1="-1.5" x2="0.3" y2="-1.5" width="0.127" layer="21"/>
 </package>
+<package name="USB-MICROB-MALE-SANDWICH">
+<smd name="D-" x="-0.65" y="0" dx="2.2" dy="0.8" layer="1" rot="R90" cream="no"/>
+<smd name="ID" x="0.65" y="0" dx="2.2" dy="0.8" layer="1" rot="R90" cream="no"/>
+<smd name="D+" x="0" y="0" dx="2.2" dy="0.8" layer="16" rot="R90" cream="no"/>
+<smd name="GND" x="1.3" y="0" dx="2.2" dy="0.8" layer="16" rot="R90" cream="no"/>
+<smd name="VBUS" x="-1.35" y="0" dx="2.2" dy="0.8" layer="16" rot="R90" cream="no"/>
+<wire x1="2.25" y1="1.2" x2="-2.25" y2="1.2" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.2" x2="-2.25" y2="0.2" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1.2" x2="2.25" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0.2" x2="-4.1" y2="0.2" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0.2" x2="4.1" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-4.1" y1="0.2" x2="-4.1" y2="-2.36" width="0.127" layer="51"/>
+<wire x1="4.1" y1="-2.36" x2="4.1" y2="0.2" width="0.127" layer="51"/>
+<smd name="GNDPAD1" x="-2.95" y="-1.1" dx="2" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="GNDPAD2" x="2.95" y="-1.1" dx="2" dy="1.5" layer="1" rot="R90" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -8083,6 +8099,17 @@ Source: www.cree.com/xlamp .. XLampXP-E.pdf</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND MT1 MT2"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FCI" package="USB-MICROB-MALE-SANDWICH">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND GNDPAD1 GNDPAD2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
