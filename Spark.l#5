@@ -3209,6 +3209,110 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <package name="INDUCTOR-VLS-E">
 <smd name="P$1" x="-1" y="0" dx="3" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="1" y="0" dx="3" dy="1" layer="1" rot="R90"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="1.5" x2="0.3" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="-1.5" x2="0.3" y2="-1.5" width="0.127" layer="21"/>
+</package>
+<package name="USB-MICROB-MALE-SANDWICH">
+<smd name="D-" x="-0.65" y="0" dx="2.2" dy="0.8" layer="1" rot="R90" cream="no"/>
+<smd name="ID" x="0.65" y="0" dx="2.2" dy="0.8" layer="1" rot="R90" cream="no"/>
+<smd name="D+" x="0" y="0" dx="2.2" dy="0.8" layer="16" rot="R90" cream="no"/>
+<smd name="GND" x="1.3" y="0" dx="2.2" dy="0.8" layer="16" rot="R90" cream="no"/>
+<smd name="VBUS" x="-1.35" y="0" dx="2.2" dy="0.8" layer="16" rot="R90" cream="no"/>
+<wire x1="2.25" y1="1.2" x2="-2.25" y2="1.2" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.2" x2="-2.25" y2="0.2" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1.2" x2="2.25" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0.2" x2="-4.1" y2="0.2" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0.2" x2="4.1" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-4.1" y1="0.2" x2="-4.1" y2="-2.36" width="0.127" layer="51"/>
+<wire x1="4.1" y1="-2.36" x2="4.1" y2="0.2" width="0.127" layer="51"/>
+<smd name="GNDPAD1" x="-2.95" y="-1.1" dx="2" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="GNDPAD2" x="2.95" y="-1.1" dx="2" dy="1.5" layer="1" rot="R90" cream="no"/>
+</package>
+<package name="SO08">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+body 3.9 mm/JEDEC MS-012AA</description>
+<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<circle x="-2.9" y="-2.8" radius="0.14141875" width="0.3048" layer="21"/>
+</package>
+<package name="INDUCTOR-SDR1005-470KL">
+<smd name="P$1" x="-4.4" y="0" dx="3" dy="2.8" layer="1" rot="R180"/>
+<smd name="P$2" x="4.4" y="0" dx="3" dy="2.8" layer="1" rot="R180"/>
+<wire x1="6.4" y1="-2.5" x2="6.4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="6.4" y1="2.5" x2="2.9" y2="4.4" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-2.5" x2="-6.4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="-4.4" x2="-6.4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="2.5" x2="-2.9" y2="4.4" width="0.127" layer="21"/>
+<wire x1="3" y1="-4.4" x2="6.4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.9" y1="4.4" x2="2.9" y2="4.4" width="0.127" layer="21" curve="-49.134343"/>
+<wire x1="-2.8" y1="-4.4" x2="3" y2="-4.4" width="0.127" layer="21" curve="49.134343"/>
+</package>
+<package name="SPARK_LOGO_TSTOP">
+<polygon width="0.0254" layer="29">
+<vertex x="-1.5494" y="1.524"/>
+<vertex x="-0.5842" y="0"/>
+<vertex x="-1.5494" y="-1.5748"/>
+<vertex x="0" y="-0.5588"/>
+<vertex x="1.5748" y="-1.6002"/>
+<vertex x="0.5588" y="0"/>
+<vertex x="1.524" y="1.5494"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0" y="2.2352"/>
+<vertex x="-0.254" y="1.0668"/>
+<vertex x="0" y="0.9144"/>
+<vertex x="0.254" y="1.0668"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-2.2352" y="0"/>
+<vertex x="-1.0668" y="-0.2286"/>
+<vertex x="-0.9144" y="0"/>
+<vertex x="-1.0668" y="0.2286"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.0668" y="0.2286"/>
+<vertex x="0.9144" y="0"/>
+<vertex x="1.0668" y="-0.2286"/>
+<vertex x="2.1844" y="0"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.254" y="-1.1176"/>
+<vertex x="0" y="-2.2352"/>
+<vertex x="0.254" y="-1.1176"/>
+<vertex x="0" y="-0.9398"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -7326,6 +7430,20 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="LM2672">
+<pin name="CB" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="SS" x="0" y="5.08" length="short" rot="R270"/>
+<pin name="SYNC" x="5.08" y="5.08" length="short" rot="R270"/>
+<pin name="FB" x="10.16" y="5.08" length="short" rot="R270"/>
+<pin name="ON/!OFF" x="2.54" y="-20.32" length="short" rot="R90"/>
+<pin name="GND" x="7.62" y="-20.32" length="short" direction="pwr" rot="R90"/>
+<pin name="VIN" x="-10.16" y="-7.62" length="short" direction="pwr"/>
+<pin name="VSW" x="20.32" y="-12.7" length="short" rot="R180"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700">
@@ -7670,7 +7788,12 @@ Source: www.cree.com/xlamp .. XLampXP-E.pdf</description>
 <gate name="G$1" symbol="SPARK_LOGO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SPARK_LOGO">
+<device name=".." package="SPARK_LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SPARK_LOGO_TSTOP">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8077,6 +8200,17 @@ Source: www.cree.com/xlamp .. XLampXP-E.pdf</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND MT1 MT2"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FCI" package="USB-MICROB-MALE-SANDWICH">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND GNDPAD1 GNDPAD2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -8683,6 +8817,46 @@ SRN6045- 33uH, 20% 1.4A</description>
 <technology name="">
 <attribute name="NR3015T4R7M" value="4.7uH" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="VLS3012ET-4R7M" package="INDUCTOR-VLS-E">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="INDUCTOR-SDR1005-470KL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2672">
+<gates>
+<gate name="G$1" symbol="LM2672" x="-5.08" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="CB" pad="1"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="ON/!OFF" pad="5"/>
+<connect gate="G$1" pin="SS" pad="2"/>
+<connect gate="G$1" pin="SYNC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="7"/>
+<connect gate="G$1" pin="VSW" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
