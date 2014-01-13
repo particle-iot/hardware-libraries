@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3264,6 +3264,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<circle x="-2.9" y="-2.8" radius="0.14141875" width="0.3048" layer="21"/>
 </package>
 <package name="INDUCTOR-SDR1005-470KL">
 <smd name="P$1" x="-4.4" y="0" dx="3" dy="2.8" layer="1" rot="R180"/>
@@ -7787,7 +7788,12 @@ Source: www.cree.com/xlamp .. XLampXP-E.pdf</description>
 <gate name="G$1" symbol="SPARK_LOGO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SPARK_LOGO">
+<device name=".." package="SPARK_LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SPARK_LOGO_TSTOP">
 <technologies>
 <technology name=""/>
 </technologies>

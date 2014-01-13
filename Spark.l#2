@@ -8875,6 +8875,28 @@ SRN6045- 33uH, 20% 1.4A</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="AP1509-50SG-13">
+<gates>
+<gate name="G$1" symbol="AP1509-50SG-13" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND5" pad="5"/>
+<connect gate="G$1" pin="GND6" pad="6"/>
+<connect gate="G$1" pin="GND7" pad="7"/>
+<connect gate="G$1" pin="GND8" pad="8"/>
+<connect gate="G$1" pin="SD" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

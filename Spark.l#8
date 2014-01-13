@@ -3277,6 +3277,42 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-2.9" y1="4.4" x2="2.9" y2="4.4" width="0.127" layer="21" curve="-49.134343"/>
 <wire x1="-2.8" y1="-4.4" x2="3" y2="-4.4" width="0.127" layer="21" curve="49.134343"/>
 </package>
+<package name="SPARK_LOGO_TSTOP">
+<polygon width="0.0254" layer="29">
+<vertex x="-1.5494" y="1.524"/>
+<vertex x="-0.5842" y="0"/>
+<vertex x="-1.5494" y="-1.5748"/>
+<vertex x="0" y="-0.5588"/>
+<vertex x="1.5748" y="-1.6002"/>
+<vertex x="0.5588" y="0"/>
+<vertex x="1.524" y="1.5494"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0" y="2.2352"/>
+<vertex x="-0.254" y="1.0668"/>
+<vertex x="0" y="0.9144"/>
+<vertex x="0.254" y="1.0668"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-2.2352" y="0"/>
+<vertex x="-1.0668" y="-0.2286"/>
+<vertex x="-0.9144" y="0"/>
+<vertex x="-1.0668" y="0.2286"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.0668" y="0.2286"/>
+<vertex x="0.9144" y="0"/>
+<vertex x="1.0668" y="-0.2286"/>
+<vertex x="2.1844" y="0"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.254" y="-1.1176"/>
+<vertex x="0" y="-2.2352"/>
+<vertex x="0.254" y="-1.1176"/>
+<vertex x="0" y="-0.9398"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -7751,7 +7787,12 @@ Source: www.cree.com/xlamp .. XLampXP-E.pdf</description>
 <gate name="G$1" symbol="SPARK_LOGO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SPARK_LOGO">
+<device name=".." package="SPARK_LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SPARK_LOGO_TSTOP">
 <technologies>
 <technology name=""/>
 </technologies>
