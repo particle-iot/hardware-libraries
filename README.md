@@ -1,7 +1,11 @@
 Particle Devices Eagle Library
 ====================================
 
-In this library you'll find foot prints to make circuit boards in Eagle using the Particle devices: Spark Core, Photon and Electron.
+In this library you'll find representation of Particle devices for use
+in CAD software.
+
+- [Footprints to make circuit boards in Eagle](https://github.com/spark/hardware-libraries/tree/master/Eagle)
+- [Parts to make breadboard diagrams in Fritzing](https://github.com/spark/hardware-libraries/tree/master/Fritzing)
 
 There are for reference and you may need to adjust them for your application. See the documentation for more details on the recommended PCB foot prints.
 
