@@ -1,10 +1,10 @@
-# Particle Devices Eagle Library
+# Particle Devices Hardware Libraries
 
-In this library you'll find representation of Particle devices for use in CAD software.
+In this repository you'll find libraries of Particle devices for use in CAD software.
 
 - [Parts to make breadboard diagrams in Fritzing](#hardware-prototyping)
 - [Footprints to make circuit boards in Eagle](#pcb-footprints-land-pattern)
-- [3D models in Sketchup](#3d-cad-models)
+- [3D CAD models in Sketchup](#3d-cad-models)
 
 **Show us what you make on the [community forum!][community]**
 
@@ -22,7 +22,7 @@ In this library you'll find representation of Particle devices for use in CAD so
 
 PCB footprints or land patterns for Eagle are provided as a reference and you may need to adjust them for your application.
 
-[Download the Eagle library][eagle-library] (right-click and select *Save link as*)
+[Download the Eagle library][eagle-library], unzip it and place it in your Eagle libraries folder.
 
 If you would like to contribute a library with the PCB footprints for another software, like KiCad, please [submit a pull request.][pr]
 
@@ -81,17 +81,17 @@ All files distributed under a Creative Commons Attribution, Share-Alike license.
 
 [fritzing-library]: https://github.com/spark/hardware-libraries/raw/master/Fritzing/Particle.fzbz
 
-[eagle-library]: https://github.com/spark/hardware-libraries/raw/master/Eagle/Particle-Devices.lbr
+[eagle-library]: https://github.com/spark/hardware-libraries/raw/master/Eagle/Particle-Devices.lbr.zip
 
 [pcb-footprint-electron]: https://docs.particle.io/datasheets/electron-datasheet/#recommended-pcb-land-pattern
 [pcb-footprint-photon]: https://docs.particle.io/datasheets/photon-datasheet/#recommended-pcb-land-pattern-photon-with-headers-
 [pcb-footprint-photon-smd]: https://docs.particle.io/datasheets/photon-datasheet/#recommended-pcb-land-pattern-photon-without-headers-
 
-[cad-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Core.skp
-[cad-p1]: https://github.com/spark/hardware-libraries/raw/master/CAD/P1.skp
-[cad-p0]: https://github.com/spark/hardware-libraries/raw/master/CAD/P0.skp
-[cad-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron.skp
-[cad-core]: https://github.com/spark/hardware-libraries/raw/master/CAD/Core.skp
+[cad-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Photon.skp.zip
+[cad-p1]: https://github.com/spark/hardware-libraries/raw/master/CAD/P1.skp.zip
+[cad-p0]: https://github.com/spark/hardware-libraries/raw/master/CAD/P0.skp.zip
+[cad-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron.skp.zip
+[cad-core]: https://github.com/spark/hardware-libraries/raw/master/CAD/Core.skp.zip
 
 [mumblepins]: https://github.com/mumblepins
 [alan707]: https://github.com/alan707
