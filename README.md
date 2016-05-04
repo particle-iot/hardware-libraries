@@ -16,7 +16,7 @@ In this repository you'll find libraries of Particle devices for use in CAD soft
 2. In Fritzing, use File -> Open to import the library.
 3. Create a new sketch and add parts from the Particle bin.
 
-[![Fritzing Electron breadboard](Fritzing/Electron-breadboard.png)][fritzing-library]
+[<img alt="Fritzing Electron breadboard" src="Fritzing/Electron-breadboard.png" width="964" height="633">][fritzing-library]
 
 ## PCB Footprints (land pattern)
 
