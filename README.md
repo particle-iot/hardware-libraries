@@ -4,7 +4,7 @@ In this repository you'll find libraries of Particle devices for use in CAD soft
 
 - [Parts to make breadboard diagrams in Fritzing](#hardware-prototyping)
 - [Footprints to make circuit boards in Eagle](#pcb-footprints-land-pattern)
-- [3D CAD models in Sketchup](#3d-cad-models)
+- [3D CAD models](#3d-cad-models)
 
 **Show us what you make on the [community forum!][community]**
 
@@ -45,30 +45,38 @@ If you need more information about how to use Eagle, check out the Sparkfun Eagl
 
 ## 3D CAD Models
 
-Here are some 3D models provided by our awesome community! Please review them before using them to create your own enclosures or products.
+Here are some 3D models, most of which are provided by our awesome community! Please review them before using them to create your own enclosures or products.
 
-Currently all models are provided in Sketchup format. If you want to improve any model or convert them to another CAD format, please [submit a pull request][pr]
+If you want to improve any model or convert them to another CAD format, please [submit a pull request][pr]
 
-- [Photon (headers and without headers)][cad-photon] by Daniel Sullivan [@mumblepins][mumblepins]
+### Models in Solidworks format
 
-[![Photon](CAD/Photon.jpg)][cad-photon]
-[![Photon (no headers)](CAD/Photon no headers.jpg)][cad-photon]
+- [Electron][solidworks-electron] by Particle
 
-- [P1][cad-p1] by Daniel Sullivan [@mumblepins][mumblepins]
+- [Photon][solidworks-photon] by Particle
 
-[![P1](CAD/P1.jpg)][cad-p1]
+### Models in Sketchup format
 
-- [P0][cad-p0] by Daniel Sullivan [@mumblepins][mumblepins]
+- [Photon (headers and without headers)][sketchup-photon] by Daniel Sullivan [@mumblepins][mumblepins]
 
-[![P0](CAD/P0.jpg)][cad-p0]
+[![Photon](CAD/Photon.jpg)][sketchup-photon]
+[![Photon (no headers)](CAD/Photon no headers.jpg)][sketchup-photon]
 
-- [Electron][cad-electron] by Alan Mond [@alan707][alan707]
+- [P1][sketchup-p1] by Daniel Sullivan [@mumblepins][mumblepins]
 
-[![Electron](CAD/Electron.jpg)][cad-electron]
+[![P1](CAD/P1.jpg)][sketchup-p1]
 
-- [Core][cad-core] by Ryotsuke
+- [P0][sketchup-p0] by Daniel Sullivan [@mumblepins][mumblepins]
 
-[![Core](CAD/Core.jpg)][cad-core]
+[![P0](CAD/P0.jpg)][sketchup-p0]
+
+- [Electron][sketchup-electron] by Alan Mond [@alan707][alan707]
+
+[![Electron](CAD/Electron.jpg)][sketchup-electron]
+
+- [Core][sketchup-core] by Ryotsuke
+
+[![Core](CAD/Core.jpg)][sketchup-core]
 
 ## License Information
 
@@ -87,11 +95,14 @@ All files distributed under a Creative Commons Attribution, Share-Alike license.
 [pcb-footprint-photon]: https://docs.particle.io/datasheets/photon-datasheet/#recommended-pcb-land-pattern-photon-with-headers-
 [pcb-footprint-photon-smd]: https://docs.particle.io/datasheets/photon-datasheet/#recommended-pcb-land-pattern-photon-without-headers-
 
-[cad-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Photon.skp.zip
-[cad-p1]: https://github.com/spark/hardware-libraries/raw/master/CAD/P1.skp.zip
-[cad-p0]: https://github.com/spark/hardware-libraries/raw/master/CAD/P0.skp.zip
-[cad-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron.skp.zip
-[cad-core]: https://github.com/spark/hardware-libraries/raw/master/CAD/Core.skp.zip
+[solidworks-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron%20-%20Solidworks.zip
+[solidworks-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Photon%20-%20Solidworks.SLDPRT
+
+[sketchup-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Photon.skp.zip
+[sketchup-p1]: https://github.com/spark/hardware-libraries/raw/master/CAD/P1.skp.zip
+[sketchup-p0]: https://github.com/spark/hardware-libraries/raw/master/CAD/P0.skp.zip
+[sketchup-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron.skp.zip
+[sketchup-core]: https://github.com/spark/hardware-libraries/raw/master/CAD/Core.skp.zip
 
 [mumblepins]: https://github.com/mumblepins
 [alan707]: https://github.com/alan707
