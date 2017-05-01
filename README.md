@@ -60,7 +60,7 @@ If you want to improve any model or convert them to another CAD format, please [
 - [Photon (headers and without headers)][sketchup-photon] by Daniel Sullivan [@mumblepins][mumblepins]
 
 [![Photon](CAD/Photon.jpg)][sketchup-photon]
-[![Photon (no headers)](CAD/Photon no headers.jpg)][sketchup-photon]
+[![Photon (no headers)](CAD/Photon%20no%20headers.jpg)][sketchup-photon]
 
 - [P1][sketchup-p1] by Daniel Sullivan [@mumblepins][mumblepins]
 
