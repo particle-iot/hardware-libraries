@@ -85,24 +85,24 @@ Designed by Particle unless otherwise noted.
 All files distributed under a Creative Commons Attribution, Share-Alike license.
 
 [community]: https://community.particle.io
-[pr]: https://github.com/spark/hardware-libraries/pulls
+[pr]: https://github.com/particle-iot/hardware-libraries/pulls
 
-[fritzing-library]: https://github.com/spark/hardware-libraries/raw/master/Fritzing/Particle.fzbz
+[fritzing-library]: https://github.com/particle-iot/hardware-libraries/raw/master/Fritzing/Particle.fzbz
 
-[eagle-library]: https://github.com/spark/hardware-libraries/raw/master/Eagle/Particle-Devices.lbr.zip
+[eagle-library]: https://github.com/particle-iot/hardware-libraries/raw/master/Eagle/Particle-Devices.lbr.zip
 
 [pcb-footprint-electron]: https://docs.particle.io/datasheets/electron-datasheet/#recommended-pcb-land-pattern
 [pcb-footprint-photon]: https://docs.particle.io/datasheets/photon-datasheet/#recommended-pcb-land-pattern-photon-with-headers-
 [pcb-footprint-photon-smd]: https://docs.particle.io/datasheets/photon-datasheet/#recommended-pcb-land-pattern-photon-without-headers-
 
-[solidworks-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron%20-%20Solidworks.zip
-[solidworks-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Photon%20-%20Solidworks.SLDPRT
+[solidworks-electron]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/Electron%20-%20Solidworks.zip
+[solidworks-photon]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/Photon%20-%20Solidworks.SLDPRT
 
-[sketchup-photon]: https://github.com/spark/hardware-libraries/raw/master/CAD/Photon.skp.zip
-[sketchup-p1]: https://github.com/spark/hardware-libraries/raw/master/CAD/P1.skp.zip
-[sketchup-p0]: https://github.com/spark/hardware-libraries/raw/master/CAD/P0.skp.zip
-[sketchup-electron]: https://github.com/spark/hardware-libraries/raw/master/CAD/Electron.skp.zip
-[sketchup-core]: https://github.com/spark/hardware-libraries/raw/master/CAD/Core.skp.zip
+[sketchup-photon]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/Photon.skp.zip
+[sketchup-p1]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/P1.skp.zip
+[sketchup-p0]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/P0.skp.zip
+[sketchup-electron]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/Electron.skp.zip
+[sketchup-core]: https://github.com/particle-iot/hardware-libraries/raw/master/CAD/Core.skp.zip
 
 [mumblepins]: https://github.com/mumblepins
 [alan707]: https://github.com/alan707
