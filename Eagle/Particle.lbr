@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8387,6 +8387,74 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <text x="-1.016" y="1.27" size="0.635" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.778" size="0.635" layer="27">&gt;VALUE</text>
 </package>
+<package name="UFQFN-16">
+<description>UFQFN-16</description>
+<circle x="-0.605" y="-1.29" radius="0.01" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="0.9" x2="-1.3" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="-0.9" x2="1.3" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="1.3" y1="-0.9" x2="1.3" y2="0.9" width="0.1" layer="51"/>
+<wire x1="1.3" y1="0.9" x2="-1.3" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-0.9" y1="0.9" x2="-1.3" y2="0.9" width="0.1" layer="21"/>
+<wire x1="0.9" y1="0.9" x2="1.3" y2="0.9" width="0.1" layer="21"/>
+<wire x1="0.9" y1="-0.9" x2="1.3" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-1.3" y1="-0.9" x2="-0.9" y2="-0.9" width="0.1" layer="21"/>
+<rectangle x1="0.45" y1="0.405" x2="0.75" y2="1.155" layer="29"/>
+<rectangle x1="0.5" y1="0.455" x2="0.7" y2="1.105" layer="31"/>
+<rectangle x1="0.1" y1="0.455" x2="0.3" y2="1.105" layer="31"/>
+<rectangle x1="-0.3" y1="0.455" x2="-0.1" y2="1.105" layer="31"/>
+<rectangle x1="-0.7" y1="0.455" x2="-0.5" y2="1.105" layer="31"/>
+<rectangle x1="0.05" y1="0.405" x2="0.35" y2="1.155" layer="29"/>
+<rectangle x1="-0.35" y1="0.405" x2="-0.05" y2="1.155" layer="29"/>
+<rectangle x1="-0.75" y1="0.405" x2="-0.45" y2="1.155" layer="29"/>
+<rectangle x1="0.45" y1="-1.155" x2="0.75" y2="-0.405" layer="29"/>
+<rectangle x1="0.5" y1="-1.105" x2="0.7" y2="-0.455" layer="31"/>
+<rectangle x1="0.1" y1="-1.105" x2="0.3" y2="-0.455" layer="31"/>
+<rectangle x1="-0.3" y1="-1.105" x2="-0.1" y2="-0.455" layer="31"/>
+<rectangle x1="0.05" y1="-1.155" x2="0.35" y2="-0.405" layer="29"/>
+<rectangle x1="-0.35" y1="-1.155" x2="-0.05" y2="-0.405" layer="29"/>
+<rectangle x1="-1.28" y1="-0.125" x2="-1.08" y2="0.525" layer="31" rot="R90"/>
+<rectangle x1="-1.33" y1="-0.175" x2="-1.03" y2="0.575" layer="29" rot="R270"/>
+<rectangle x1="-1.28" y1="0.275" x2="-1.08" y2="0.925" layer="31" rot="R90"/>
+<rectangle x1="-1.33" y1="0.225" x2="-1.03" y2="0.975" layer="29" rot="R270"/>
+<rectangle x1="-1.28" y1="-0.925" x2="-1.08" y2="-0.275" layer="31" rot="R90"/>
+<rectangle x1="-1.33" y1="-0.975" x2="-1.03" y2="-0.225" layer="29" rot="R270"/>
+<rectangle x1="-1.28" y1="-0.525" x2="-1.08" y2="0.125" layer="31" rot="R90"/>
+<rectangle x1="-1.33" y1="-0.575" x2="-1.03" y2="0.175" layer="29" rot="R270"/>
+<rectangle x1="1.08" y1="-0.125" x2="1.28" y2="0.525" layer="31" rot="R90"/>
+<rectangle x1="1.03" y1="-0.175" x2="1.33" y2="0.575" layer="29" rot="R270"/>
+<rectangle x1="1.08" y1="0.275" x2="1.28" y2="0.925" layer="31" rot="R90"/>
+<rectangle x1="1.03" y1="0.225" x2="1.33" y2="0.975" layer="29" rot="R270"/>
+<rectangle x1="1.08" y1="-0.925" x2="1.28" y2="-0.275" layer="31" rot="R90"/>
+<rectangle x1="1.03" y1="-0.975" x2="1.33" y2="-0.225" layer="29" rot="R270"/>
+<rectangle x1="1.08" y1="-0.525" x2="1.28" y2="0.125" layer="31" rot="R90"/>
+<rectangle x1="1.03" y1="-0.575" x2="1.33" y2="0.175" layer="29" rot="R270"/>
+<rectangle x1="-0.7" y1="-1.105" x2="-0.5" y2="-0.355" layer="31"/>
+<rectangle x1="-0.75" y1="-1.155" x2="-0.45" y2="-0.305" layer="29"/>
+<smd name="1" x="-0.6" y="-0.73" dx="0.2" dy="0.75" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.2" y="-0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.2" y="-0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.6" y="-0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.18" y="-0.6" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="6" x="1.18" y="-0.2" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="7" x="1.18" y="0.2" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="8" x="1.18" y="0.6" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="9" x="0.6" y="0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="10" x="0.2" y="0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="11" x="-0.2" y="0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="12" x="-0.6" y="0.78" dx="0.2" dy="0.65" layer="1" stop="no" cream="no"/>
+<smd name="13" x="-1.18" y="0.6" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="14" x="-1.18" y="0.2" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="15" x="-1.18" y="-0.2" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="16" x="-1.18" y="-0.6" dx="0.2" dy="0.65" layer="1" rot="R90" stop="no" cream="no"/>
+<text x="-0.665" y="-0.72" size="0.2" layer="51" font="vector">1</text>
+<text x="0.535" y="-0.72" size="0.2" layer="51" font="vector">4</text>
+<text x="0.975" y="-0.7" size="0.2" layer="51" font="vector">5</text>
+<text x="0.97" y="0.5" size="0.2" layer="51" font="vector">8</text>
+<text x="0.53" y="0.55" size="0.2" layer="51" font="vector">9</text>
+<text x="-0.5" y="0.475" size="0.2" layer="51" font="vector" rot="R90">12</text>
+<text x="-1.195" y="0.5" size="0.2" layer="51" font="vector">13</text>
+<text x="-1.195" y="-0.7" size="0.2" layer="51" font="vector">16</text>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -13833,6 +13901,54 @@ E0</text>
 <text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SN74AVC4T774">
+<pin name="A1" x="-15.24" y="10.16" length="middle"/>
+<pin name="A2" x="-15.24" y="7.62" length="middle"/>
+<pin name="A3" x="-15.24" y="5.08" length="middle"/>
+<pin name="A4" x="-15.24" y="2.54" length="middle"/>
+<pin name="B1" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="B2" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="B3" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="B4" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="DIR1" x="-15.24" y="-2.54" length="middle"/>
+<pin name="DIR2" x="-15.24" y="-5.08" length="middle"/>
+<pin name="DIR3" x="-15.24" y="-7.62" length="middle"/>
+<pin name="!OE" x="-15.24" y="-12.7" length="middle"/>
+<pin name="VCCA" x="-15.24" y="12.7" length="middle" direction="pwr"/>
+<pin name="VCCB" x="15.24" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="DIR4" x="-15.24" y="-10.16" length="middle"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SN74AVC4T245">
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="1/OE" x="-15.24" y="-2.54" length="middle"/>
+<pin name="1A1" x="-15.24" y="7.62" length="middle"/>
+<pin name="1A2" x="-15.24" y="5.08" length="middle"/>
+<pin name="1B1" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="1B2" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="1DIR" x="-15.24" y="-7.62" length="middle"/>
+<pin name="2/OE" x="-15.24" y="-5.08" length="middle"/>
+<pin name="2A1" x="-15.24" y="2.54" length="middle"/>
+<pin name="2A2" x="-15.24" y="0" length="middle"/>
+<pin name="2B1" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="2B2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="2DIR" x="-15.24" y="-10.16" length="middle"/>
+<pin name="GND@10" x="-15.24" y="-12.7" length="middle"/>
+<pin name="GND@11" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="VCCA" x="-15.24" y="10.16" length="middle"/>
+<pin name="VCCB" x="15.24" y="10.16" length="middle" rot="R180"/>
+<text x="-10.16" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700">
@@ -17273,6 +17389,66 @@ Part# 10103594-0001LF
 <connect gate="U1" pin="THM" pad="5"/>
 <connect gate="U1" pin="VIN" pad="6"/>
 <connect gate="U1" pin="VSS" pad="2 7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74AVC4T774" prefix="U">
+<gates>
+<gate name="U1" symbol="SN74AVC4T774" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UFQFN-16">
+<connects>
+<connect gate="U1" pin="!OE" pad="7"/>
+<connect gate="U1" pin="A1" pad="1"/>
+<connect gate="U1" pin="A2" pad="2"/>
+<connect gate="U1" pin="A3" pad="3"/>
+<connect gate="U1" pin="A4" pad="4"/>
+<connect gate="U1" pin="B1" pad="12"/>
+<connect gate="U1" pin="B2" pad="11"/>
+<connect gate="U1" pin="B3" pad="10"/>
+<connect gate="U1" pin="B4" pad="9"/>
+<connect gate="U1" pin="DIR1" pad="15"/>
+<connect gate="U1" pin="DIR2" pad="16"/>
+<connect gate="U1" pin="DIR3" pad="5"/>
+<connect gate="U1" pin="DIR4" pad="6"/>
+<connect gate="U1" pin="GND" pad="8"/>
+<connect gate="U1" pin="VCCA" pad="14"/>
+<connect gate="U1" pin="VCCB" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74AVC4T245" prefix="U">
+<gates>
+<gate name="U1" symbol="SN74AVC4T245" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UFQFN-16">
+<connects>
+<connect gate="U1" pin="1/OE" pad="1"/>
+<connect gate="U1" pin="1A1" pad="6"/>
+<connect gate="U1" pin="1A2" pad="7"/>
+<connect gate="U1" pin="1B1" pad="15"/>
+<connect gate="U1" pin="1B2" pad="14"/>
+<connect gate="U1" pin="1DIR" pad="4"/>
+<connect gate="U1" pin="2/OE" pad="16"/>
+<connect gate="U1" pin="2A1" pad="8"/>
+<connect gate="U1" pin="2A2" pad="9"/>
+<connect gate="U1" pin="2B1" pad="13"/>
+<connect gate="U1" pin="2B2" pad="12"/>
+<connect gate="U1" pin="2DIR" pad="5"/>
+<connect gate="U1" pin="GND@10" pad="10"/>
+<connect gate="U1" pin="GND@11" pad="11"/>
+<connect gate="U1" pin="VCCA" pad="3"/>
+<connect gate="U1" pin="VCCB" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
