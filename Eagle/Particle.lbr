@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8455,6 +8455,59 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <text x="-1.195" y="0.5" size="0.2" layer="51" font="vector">13</text>
 <text x="-1.195" y="-0.7" size="0.2" layer="51" font="vector">16</text>
 </package>
+<package name="SOT23-6">
+<wire x1="1.4224" y1="0.8104" x2="1.4224" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.8104" x2="-1.4224" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="51"/>
+<wire x1="-0.5224" y1="0.8104" x2="0.5224" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="-0.4276" y1="-0.8104" x2="-0.5224" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="0.5224" y1="-0.8104" x2="0.4276" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="-1.3276" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.8104" x2="1.3276" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="1.3276" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.8104" x2="-1.3276" y2="0.8104" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="6" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<smd name="5" x="0" y="1.3001" dx="0.55" dy="1.2" layer="1" rot="R180"/>
+<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51" rot="R180"/>
+</package>
+<package name="WURTH-744311220">
+<description>FIXED IND 2.2UH 9A 11.4 MOHM SMD</description>
+<smd name="1" x="-2.55" y="0" dx="2.7" dy="2.2" layer="1"/>
+<smd name="2" x="2.55" y="0" dx="2.7" dy="2.2" layer="1"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="1.5" x2="-3.5" y2="3.5" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.2" layer="21"/>
+<text x="-3.556" y="-4.826" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="4.064" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+<package name="XT60-MALE">
+<smd name="1" x="-3.5" y="0" dx="5" dy="10" layer="1"/>
+<smd name="2" x="3.5" y="0" dx="5" dy="10" layer="1"/>
+<wire x1="8" y1="5" x2="8" y2="21" width="0.2" layer="21"/>
+<wire x1="8" y1="21" x2="-8" y2="21" width="0.2" layer="21"/>
+<wire x1="-8" y1="21" x2="-8" y2="5" width="0.2" layer="21"/>
+<wire x1="-8" y1="5" x2="8" y2="5" width="0.2" layer="51"/>
+<wire x1="8" y1="5" x2="8" y2="21" width="0.2" layer="51"/>
+<wire x1="8" y1="21" x2="-8" y2="21" width="0.2" layer="51"/>
+<wire x1="-8" y1="21" x2="-8" y2="5" width="0.2" layer="51"/>
+<wire x1="-8" y1="5" x2="-6.5" y2="5" width="0.2" layer="21"/>
+<wire x1="8" y1="5" x2="6.5" y2="5" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -13949,6 +14002,30 @@ E0</text>
 <text x="-10.16" y="13.462" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS565208">
+<description>4.5V TO 17V, 5A SYNCHRONOUS STEP DOWN</description>
+<pin name="GND" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="SW" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VIN" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="VFB" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="short"/>
+<pin name="VBST" x="12.7" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="XT60-MALE">
+<pin name="1" x="-7.62" y="2.54" length="short" direction="pwr"/>
+<pin name="2" x="-7.62" y="-2.54" length="short" direction="pwr"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="2.54" layer="94" rot="R90" align="center">XT60</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700">
@@ -14033,15 +14110,15 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR" prefix="I">
+<deviceset name="INDUCTOR" prefix="L">
 <gates>
-<gate name="G$1" symbol="INDUCTOR-1" x="0" y="0"/>
+<gate name="L1" symbol="INDUCTOR-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="A" package="B82464">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14049,8 +14126,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="F" package="L0402_B">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14058,8 +14135,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="B" package="INDUCTOR-NR3015">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14067,8 +14144,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="C" package="INDUCTOR-1206">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="L1" pin="1" pad="P$1"/>
+<connect gate="L1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14076,8 +14153,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="D" package="INDUCTOR-SDR1005-470KL">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="L1" pin="1" pad="P$1"/>
+<connect gate="L1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14085,8 +14162,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="E" package="INDUCTOR-VLS-E">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="L1" pin="1" pad="P$1"/>
+<connect gate="L1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14094,8 +14171,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="G" package="INDUCTOR-0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14103,8 +14180,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="" package="4020TYPE">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="L1" pin="1" pad="P$1"/>
+<connect gate="L1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14112,8 +14189,8 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="H" package="INDUCTOR-4020">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="L1" pin="1" pad="P$1"/>
+<connect gate="L1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14121,12 +14198,21 @@ SMD toroidal-core transformer with 3 windings</description>
 </device>
 <device name="I" package="INDUCTOR-4040">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="L1" pin="1" pad="P$1"/>
+<connect gate="L1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
 <technology name="MPI4040R2-2R2-R"/>
+</technologies>
+</device>
+<device name="WURTH" package="WURTH-744311220">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -17449,6 +17535,44 @@ Part# 10103594-0001LF
 <connect gate="U1" pin="GND@11" pad="11"/>
 <connect gate="U1" pin="VCCA" pad="3"/>
 <connect gate="U1" pin="VCCB" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS565208DDCT" prefix="U">
+<description>Texas Instruments
+4.5V TO 17V, 5A SYNCHRONOUS STEP DOWN</description>
+<gates>
+<gate name="U1" symbol="TPS565208" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="U1" pin="EN" pad="5"/>
+<connect gate="U1" pin="GND" pad="1"/>
+<connect gate="U1" pin="SW" pad="2"/>
+<connect gate="U1" pin="VBST" pad="6"/>
+<connect gate="U1" pin="VFB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XT60" prefix="CONN">
+<gates>
+<gate name="CONN1" symbol="XT60-MALE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XT60-MALE">
+<connects>
+<connect gate="CONN1" pin="1" pad="1"/>
+<connect gate="CONN1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
