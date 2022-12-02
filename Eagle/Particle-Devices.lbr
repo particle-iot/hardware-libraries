@@ -8084,7 +8084,7 @@ More information: https://docs.particle.io/datasheets/asset-tracking/tracker-som
 </device>
 </devices>
 </deviceset>
-<deviceset name="PARTICLE_E404X" prefix="U">
+<deviceset name="E404X" prefix="U">
 <description>Particle E0</description>
 <gates>
 <gate name="G$1" symbol="PARTICLE_EVO" x="0" y="0"/>
