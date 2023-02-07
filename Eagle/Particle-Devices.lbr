@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -964,72 +964,6 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="2.54" y1="48.26" x2="2.54" y2="2.54" width="0.3048" layer="51"/>
 <wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.3048" layer="51"/>
 <wire x1="20.32" y1="2.54" x2="17.78" y2="2.54" width="0.3048" layer="51"/>
-</package>
-<package name="BORON" urn="urn:adsk.eagle:footprint:10606110/1">
-<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
-
-Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;&lt;br&gt;
-More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;/p&gt;
-Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
-<wire x1="0" y1="48.26" x2="0" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.1524" layer="21"/>
-<wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="22.86" y1="2.54" x2="22.86" y2="48.26" width="0.1524" layer="21"/>
-<wire x1="22.86" y1="48.26" x2="20.32" y2="50.8" width="0.1524" layer="21" curve="90"/>
-<wire x1="20.32" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="21" curve="90"/>
-<wire x1="0" y1="2.54" x2="0" y2="48.26" width="0.1524" layer="51"/>
-<wire x1="0" y1="48.26" x2="2.54" y2="50.8" width="0.1524" layer="51" curve="-90"/>
-<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="51"/>
-<wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="51"/>
-<wire x1="15.24" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="51"/>
-<wire x1="20.32" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="51" curve="-90"/>
-<wire x1="22.86" y1="48.26" x2="22.86" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="22.86" y1="2.54" x2="20.32" y2="0" width="0.1524" layer="51" curve="-90"/>
-<wire x1="20.32" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="51" curve="-90"/>
-<wire x1="7.62" y1="50.8" x2="7.62" y2="52.07" width="0.127" layer="51"/>
-<wire x1="7.62" y1="52.07" x2="15.24" y2="52.07" width="0.127" layer="51"/>
-<wire x1="15.24" y1="52.07" x2="15.24" y2="50.8" width="0.127" layer="51"/>
-<pad name="28" x="21.59" y="34.29" drill="1" diameter="1.778" rot="R270"/>
-<pad name="27" x="21.59" y="31.75" drill="1" diameter="1.778" rot="R270"/>
-<pad name="26" x="21.59" y="29.21" drill="1" diameter="1.778" rot="R270"/>
-<pad name="25" x="21.59" y="26.67" drill="1" diameter="1.778" rot="R270"/>
-<pad name="24" x="21.59" y="24.13" drill="1" diameter="1.778" rot="R270"/>
-<pad name="23" x="21.59" y="21.59" drill="1" diameter="1.778" rot="R270"/>
-<pad name="22" x="21.59" y="19.05" drill="1" diameter="1.778" rot="R270"/>
-<pad name="21" x="21.59" y="16.51" drill="1" diameter="1.778" rot="R270"/>
-<pad name="20" x="21.59" y="13.97" drill="1" diameter="1.778" rot="R270"/>
-<pad name="19" x="21.59" y="11.43" drill="1" diameter="1.778" rot="R270"/>
-<pad name="18" x="21.59" y="8.89" drill="1" diameter="1.778" rot="R270"/>
-<pad name="17" x="21.59" y="6.35" drill="1" diameter="1.778" rot="R270"/>
-<pad name="5" x="1.27" y="34.29" drill="1" diameter="1.778" rot="R270"/>
-<pad name="6" x="1.27" y="31.75" drill="1" diameter="1.778" rot="R270"/>
-<pad name="7" x="1.27" y="29.21" drill="1" diameter="1.778" rot="R270"/>
-<pad name="8" x="1.27" y="26.67" drill="1" diameter="1.778" rot="R270"/>
-<pad name="9" x="1.27" y="24.13" drill="1" diameter="1.778" rot="R270"/>
-<pad name="10" x="1.27" y="21.59" drill="1" diameter="1.778" rot="R270"/>
-<pad name="11" x="1.27" y="19.05" drill="1" diameter="1.778" rot="R270"/>
-<pad name="12" x="1.27" y="16.51" drill="1" diameter="1.778" rot="R270"/>
-<pad name="13" x="1.27" y="13.97" drill="1" diameter="1.778" rot="R270"/>
-<pad name="14" x="1.27" y="11.43" drill="1" diameter="1.778" rot="R270"/>
-<pad name="15" x="1.27" y="8.89" drill="1" diameter="1.778" rot="R270"/>
-<pad name="16" x="1.27" y="6.35" drill="1" diameter="1.778" rot="R270"/>
-<pad name="4" x="1.27" y="36.83" drill="1" diameter="1.778" rot="R270"/>
-<pad name="3" x="1.27" y="39.37" drill="1" diameter="1.778" rot="R270"/>
-<pad name="2" x="1.27" y="41.91" drill="1" diameter="1.778" rot="R270"/>
-<pad name="1" x="1.27" y="44.45" drill="1" diameter="1.778" rot="R270"/>
-<circle x="2.54" y="48.26" radius="1.27" width="0.1524" layer="51"/>
-<circle x="20.32" y="48.26" radius="1.27" width="0.1524" layer="51"/>
-<circle x="2.54" y="2.54" radius="1.27" width="0.1524" layer="51"/>
-<circle x="20.32" y="2.54" radius="1.27" width="0.1524" layer="51"/>
-<text x="4.445" y="3.81" size="0.6096" layer="51" align="top-left">GROUND PLANE
-AND SIGNAL KEEP OUT
-RECOMMENDED ON ALL LAYERS</text>
-<text x="0" y="-1.27" size="1.27" layer="21" align="top-left">&gt;NAME</text>
-<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="41"/>
-<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="42"/>
 </package>
 <package name="SPARK_CORE_STACKABLE" urn="urn:adsk.eagle:footprint:5952902/1">
 <pad name="1" x="-8.89" y="13.97" drill="1.016" diameter="1.8796"/>
@@ -2350,6 +2284,267 @@ THIS AREA</text>
 <rectangle x1="4.572" y1="29.083" x2="8.382" y2="30.861" layer="41"/>
 <rectangle x1="2.7178" y1="14.224" x2="4.318" y2="18.288" layer="41"/>
 </package>
+<package name="BORON" urn="urn:adsk.eagle:footprint:10606110/1">
+<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
+
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;&lt;br&gt;
+More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;/p&gt;
+Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
+<wire x1="0" y1="48.26" x2="0" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="48.26" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="48.26" x2="20.32" y2="50.8" width="0.1524" layer="21" curve="90"/>
+<wire x1="20.32" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="21" curve="90"/>
+<wire x1="0" y1="2.54" x2="0" y2="48.26" width="0.1524" layer="51"/>
+<wire x1="0" y1="48.26" x2="2.54" y2="50.8" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="15.24" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="20.32" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="51" curve="-90"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="22.86" y1="2.54" x2="20.32" y2="0" width="0.1524" layer="51" curve="-90"/>
+<wire x1="20.32" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="51" curve="-90"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="52.07" width="0.127" layer="51"/>
+<wire x1="7.62" y1="52.07" x2="15.24" y2="52.07" width="0.127" layer="51"/>
+<wire x1="15.24" y1="52.07" x2="15.24" y2="50.8" width="0.127" layer="51"/>
+<pad name="28" x="21.59" y="34.29" drill="1" diameter="1.778" rot="R270"/>
+<pad name="27" x="21.59" y="31.75" drill="1" diameter="1.778" rot="R270"/>
+<pad name="26" x="21.59" y="29.21" drill="1" diameter="1.778" rot="R270"/>
+<pad name="25" x="21.59" y="26.67" drill="1" diameter="1.778" rot="R270"/>
+<pad name="24" x="21.59" y="24.13" drill="1" diameter="1.778" rot="R270"/>
+<pad name="23" x="21.59" y="21.59" drill="1" diameter="1.778" rot="R270"/>
+<pad name="22" x="21.59" y="19.05" drill="1" diameter="1.778" rot="R270"/>
+<pad name="21" x="21.59" y="16.51" drill="1" diameter="1.778" rot="R270"/>
+<pad name="20" x="21.59" y="13.97" drill="1" diameter="1.778" rot="R270"/>
+<pad name="19" x="21.59" y="11.43" drill="1" diameter="1.778" rot="R270"/>
+<pad name="18" x="21.59" y="8.89" drill="1" diameter="1.778" rot="R270"/>
+<pad name="17" x="21.59" y="6.35" drill="1" diameter="1.778" rot="R270"/>
+<pad name="5" x="1.27" y="34.29" drill="1" diameter="1.778" rot="R270"/>
+<pad name="6" x="1.27" y="31.75" drill="1" diameter="1.778" rot="R270"/>
+<pad name="7" x="1.27" y="29.21" drill="1" diameter="1.778" rot="R270"/>
+<pad name="8" x="1.27" y="26.67" drill="1" diameter="1.778" rot="R270"/>
+<pad name="9" x="1.27" y="24.13" drill="1" diameter="1.778" rot="R270"/>
+<pad name="10" x="1.27" y="21.59" drill="1" diameter="1.778" rot="R270"/>
+<pad name="11" x="1.27" y="19.05" drill="1" diameter="1.778" rot="R270"/>
+<pad name="12" x="1.27" y="16.51" drill="1" diameter="1.778" rot="R270"/>
+<pad name="13" x="1.27" y="13.97" drill="1" diameter="1.778" rot="R270"/>
+<pad name="14" x="1.27" y="11.43" drill="1" diameter="1.778" rot="R270"/>
+<pad name="15" x="1.27" y="8.89" drill="1" diameter="1.778" rot="R270"/>
+<pad name="16" x="1.27" y="6.35" drill="1" diameter="1.778" rot="R270"/>
+<pad name="4" x="1.27" y="36.83" drill="1" diameter="1.778" rot="R270"/>
+<pad name="3" x="1.27" y="39.37" drill="1" diameter="1.778" rot="R270"/>
+<pad name="2" x="1.27" y="41.91" drill="1" diameter="1.778" rot="R270"/>
+<pad name="1" x="1.27" y="44.45" drill="1" diameter="1.778" rot="R270"/>
+<circle x="2.54" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<text x="4.445" y="3.81" size="0.6096" layer="51" align="top-left">GROUND PLANE
+AND SIGNAL KEEP OUT
+RECOMMENDED ON ALL LAYERS</text>
+<text x="0" y="-1.27" size="1.27" layer="21" align="top-left">&gt;NAME</text>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="41"/>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="42"/>
+</package>
+<package name="BORON-SMD">
+<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
+
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;&lt;br&gt;
+More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;/p&gt;
+Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
+<wire x1="0" y1="48.26" x2="0" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="48.26" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="48.26" x2="20.32" y2="50.8" width="0.1524" layer="21" curve="90"/>
+<wire x1="20.32" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="21" curve="90"/>
+<wire x1="0" y1="2.54" x2="0" y2="48.26" width="0.1524" layer="51"/>
+<wire x1="0" y1="48.26" x2="2.54" y2="50.8" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="15.24" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="20.32" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="51" curve="-90"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="22.86" y1="2.54" x2="20.32" y2="0" width="0.1524" layer="51" curve="-90"/>
+<wire x1="20.32" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="51" curve="-90"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="52.07" width="0.127" layer="51"/>
+<wire x1="7.62" y1="52.07" x2="15.24" y2="52.07" width="0.127" layer="51"/>
+<wire x1="15.24" y1="52.07" x2="15.24" y2="50.8" width="0.127" layer="51"/>
+<circle x="2.54" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<text x="4.445" y="3.81" size="0.6096" layer="51" align="top-left">GROUND PLANE
+AND SIGNAL KEEP OUT
+RECOMMENDED ON ALL LAYERS</text>
+<text x="0" y="-1.27" size="1.27" layer="21" align="top-left">&gt;NAME</text>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="41"/>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="42"/>
+<smd name="28" x="23.368" y="34.29" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="27" x="19.812" y="31.75" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="26" x="23.368" y="29.21" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="25" x="19.812" y="26.67" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="24" x="23.368" y="24.13" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="23" x="19.812" y="21.59" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="22" x="23.368" y="19.05" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="21" x="19.812" y="16.51" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="20" x="23.368" y="13.97" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="19" x="19.812" y="11.43" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="18" x="23.368" y="8.89" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="17" x="19.812" y="6.35" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="5" x="3.048" y="34.29" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="6" x="-0.508" y="31.75" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="7" x="3.048" y="29.21" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="8" x="-0.508" y="26.67" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="9" x="3.048" y="24.13" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="10" x="-0.508" y="21.59" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="11" x="3.048" y="19.05" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="12" x="-0.508" y="16.51" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="13" x="3.048" y="13.97" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="14" x="-0.508" y="11.43" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="15" x="3.048" y="8.89" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="16" x="-0.508" y="6.35" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="1" x="3.048" y="44.45" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="2" x="-0.508" y="41.91" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="3" x="3.048" y="39.37" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="4" x="-0.508" y="36.83" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+</package>
+<package name="PHOTON2">
+<description>&lt;b&gt;PHOTON 2&lt;/b&gt;&lt;p&gt;
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/
+Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
+<wire x1="0" y1="48.26" x2="0" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="48.26" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="48.26" x2="20.32" y2="50.8" width="0.1524" layer="21" curve="90"/>
+<wire x1="20.32" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="21" curve="90"/>
+<wire x1="0" y1="2.54" x2="0" y2="48.26" width="0.1524" layer="51"/>
+<wire x1="0" y1="48.26" x2="2.54" y2="50.8" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="15.24" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="20.32" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="51" curve="-90"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="22.86" y1="2.54" x2="20.32" y2="0" width="0.1524" layer="51" curve="-90"/>
+<wire x1="20.32" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="51" curve="-90"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="52.07" width="0.127" layer="51"/>
+<wire x1="7.62" y1="52.07" x2="15.24" y2="52.07" width="0.127" layer="51"/>
+<wire x1="15.24" y1="52.07" x2="15.24" y2="50.8" width="0.127" layer="51"/>
+<pad name="28" x="21.59" y="34.29" drill="1" diameter="1.778" rot="R270"/>
+<pad name="27" x="21.59" y="31.75" drill="1" diameter="1.778" rot="R270"/>
+<pad name="26" x="21.59" y="29.21" drill="1" diameter="1.778" rot="R270"/>
+<pad name="25" x="21.59" y="26.67" drill="1" diameter="1.778" rot="R270"/>
+<pad name="24" x="21.59" y="24.13" drill="1" diameter="1.778" rot="R270"/>
+<pad name="23" x="21.59" y="21.59" drill="1" diameter="1.778" rot="R270"/>
+<pad name="22" x="21.59" y="19.05" drill="1" diameter="1.778" rot="R270"/>
+<pad name="21" x="21.59" y="16.51" drill="1" diameter="1.778" rot="R270"/>
+<pad name="20" x="21.59" y="13.97" drill="1" diameter="1.778" rot="R270"/>
+<pad name="19" x="21.59" y="11.43" drill="1" diameter="1.778" rot="R270"/>
+<pad name="18" x="21.59" y="8.89" drill="1" diameter="1.778" rot="R270"/>
+<pad name="17" x="21.59" y="6.35" drill="1" diameter="1.778" rot="R270"/>
+<pad name="5" x="1.27" y="34.29" drill="1" diameter="1.778" rot="R270"/>
+<pad name="6" x="1.27" y="31.75" drill="1" diameter="1.778" rot="R270"/>
+<pad name="7" x="1.27" y="29.21" drill="1" diameter="1.778" rot="R270"/>
+<pad name="8" x="1.27" y="26.67" drill="1" diameter="1.778" rot="R270"/>
+<pad name="9" x="1.27" y="24.13" drill="1" diameter="1.778" rot="R270"/>
+<pad name="10" x="1.27" y="21.59" drill="1" diameter="1.778" rot="R270"/>
+<pad name="11" x="1.27" y="19.05" drill="1" diameter="1.778" rot="R270"/>
+<pad name="12" x="1.27" y="16.51" drill="1" diameter="1.778" rot="R270"/>
+<pad name="13" x="1.27" y="13.97" drill="1" diameter="1.778" rot="R270"/>
+<pad name="14" x="1.27" y="11.43" drill="1" diameter="1.778" rot="R270"/>
+<pad name="15" x="1.27" y="8.89" drill="1" diameter="1.778" rot="R270"/>
+<pad name="16" x="1.27" y="6.35" drill="1" diameter="1.778" rot="R270"/>
+<pad name="4" x="1.27" y="36.83" drill="1" diameter="1.778" rot="R270"/>
+<pad name="3" x="1.27" y="39.37" drill="1" diameter="1.778" rot="R270"/>
+<pad name="2" x="1.27" y="41.91" drill="1" diameter="1.778" rot="R270"/>
+<pad name="1" x="1.27" y="44.45" drill="1" diameter="1.778" rot="R270"/>
+<circle x="2.54" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<text x="4.445" y="3.81" size="0.6096" layer="51" align="top-left">GROUND PLANE
+AND SIGNAL KEEP OUT
+RECOMMENDED ON ALL LAYERS</text>
+<text x="0" y="-1.27" size="1.27" layer="21" align="top-left">&gt;NAME</text>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="41"/>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="42"/>
+</package>
+<package name="PHOTON2-SMD">
+<description>&lt;b&gt;PHOTON 2&lt;/b&gt;&lt;p&gt;
+
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;&lt;br&gt;
+Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
+<wire x1="0" y1="48.26" x2="0" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="48.26" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="48.26" x2="20.32" y2="50.8" width="0.1524" layer="21" curve="90"/>
+<wire x1="20.32" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="21" curve="90"/>
+<wire x1="0" y1="2.54" x2="0" y2="48.26" width="0.1524" layer="51"/>
+<wire x1="0" y1="48.26" x2="2.54" y2="50.8" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="15.24" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="51"/>
+<wire x1="20.32" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="51" curve="-90"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="22.86" y1="2.54" x2="20.32" y2="0" width="0.1524" layer="51" curve="-90"/>
+<wire x1="20.32" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="51" curve="-90"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="52.07" width="0.127" layer="51"/>
+<wire x1="7.62" y1="52.07" x2="15.24" y2="52.07" width="0.127" layer="51"/>
+<wire x1="15.24" y1="52.07" x2="15.24" y2="50.8" width="0.127" layer="51"/>
+<circle x="2.54" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="48.26" radius="1.27" width="0.1524" layer="51"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<circle x="20.32" y="2.54" radius="1.27" width="0.1524" layer="51"/>
+<text x="4.445" y="3.81" size="0.6096" layer="51" align="top-left">GROUND PLANE
+AND SIGNAL KEEP OUT
+RECOMMENDED ON ALL LAYERS</text>
+<text x="0" y="-1.27" size="1.27" layer="21" align="top-left">&gt;NAME</text>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="41"/>
+<rectangle x1="0" y1="-5.08" x2="22.86" y2="5.08" layer="42"/>
+<smd name="28" x="23.368" y="34.29" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="27" x="19.812" y="31.75" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="26" x="23.368" y="29.21" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="25" x="19.812" y="26.67" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="24" x="23.368" y="24.13" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="23" x="19.812" y="21.59" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="22" x="23.368" y="19.05" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="21" x="19.812" y="16.51" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="20" x="23.368" y="13.97" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="19" x="19.812" y="11.43" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="18" x="23.368" y="8.89" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="17" x="19.812" y="6.35" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="5" x="3.048" y="34.29" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="6" x="-0.508" y="31.75" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="7" x="3.048" y="29.21" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="8" x="-0.508" y="26.67" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="9" x="3.048" y="24.13" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="10" x="-0.508" y="21.59" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="11" x="3.048" y="19.05" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="12" x="-0.508" y="16.51" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="13" x="3.048" y="13.97" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="14" x="-0.508" y="11.43" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="15" x="3.048" y="8.89" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="16" x="-0.508" y="6.35" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="1" x="3.048" y="44.45" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="2" x="-0.508" y="41.91" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="3" x="3.048" y="39.37" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+<smd name="4" x="-0.508" y="36.83" dx="1.016" dy="2.032" layer="1" rot="R270"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SPARK_CORE" urn="urn:adsk.eagle:package:5952924/1" type="box">
@@ -2413,16 +2608,6 @@ Please pay attention to the keepout areas under the antenna to get good RF perfo
 <packageinstance name="XENON"/>
 </packageinstances>
 </package3d>
-<package3d name="BORON" urn="urn:adsk.eagle:package:10606116/2" type="model">
-<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
-
-Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;&lt;br&gt;
-More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;/p&gt;
-Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
-<packageinstances>
-<packageinstance name="BORON"/>
-</packageinstances>
-</package3d>
 <package3d name="WM-N-BM-14" urn="urn:adsk.eagle:package:5952916/1" type="box">
 <packageinstances>
 <packageinstance name="WM-N-BM-14"/>
@@ -2462,6 +2647,16 @@ Key = E&lt;br&gt;</description>
 <package3d name="TRACKERSOM_V002" urn="urn:adsk.eagle:package:22305407/3" type="model">
 <packageinstances>
 <packageinstance name="TRACKERSOM_V002"/>
+</packageinstances>
+</package3d>
+<package3d name="BORON" urn="urn:adsk.eagle:package:10606116/2" type="model">
+<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
+
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;&lt;br&gt;
+More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;/p&gt;
+Please pay attention to the keepout areas under the antenna to get good RF performance.</description>
+<packageinstances>
+<packageinstance name="BORON"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6398,49 +6593,6 @@ Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&
 <text x="0" y="21.59" size="1.4224" layer="94" ratio="10" align="center">XENON</text>
 <text x="-10.16" y="-24.13" size="1.4224" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
-<symbol name="BORON" urn="urn:adsk.eagle:symbol:10606112/1">
-<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
-The Particle Boron cellular enabled development kit that can act as either a standalone cellular device or LTE enabled gateway, repeater, or endpoint for a Particle Mesh networks.&lt;br&gt;
-More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;br&gt;
-Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;</description>
-<pin name="!RST" x="-12.7" y="17.78" visible="pin" length="short" direction="in"/>
-<pin name="3V3" x="-12.7" y="15.24" visible="pin" length="short" direction="pwr"/>
-<pin name="MODE" x="-12.7" y="12.7" visible="pin" length="short"/>
-<pin name="GND" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
-<pin name="A0" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="A1" x="-12.7" y="5.08" visible="pin" length="short"/>
-<pin name="A2" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="A3" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="A4" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="A5" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="SCK" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="MOSI" x="-12.7" y="-10.16" visible="pin" length="short"/>
-<pin name="MISO" x="-12.7" y="-12.7" visible="pin" length="short"/>
-<pin name="RX" x="-12.7" y="-15.24" visible="pin" length="short"/>
-<pin name="TX" x="-12.7" y="-17.78" visible="pin" length="short"/>
-<pin name="NC" x="-12.7" y="-20.32" visible="pin" length="short"/>
-<pin name="SDA" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
-<pin name="SCL" x="12.7" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="D2" x="12.7" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="D3" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="D4" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="D5" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="D6" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="D7" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="D8" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="VUSB" x="12.7" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="EN" x="12.7" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="LI+" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
-<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="20.32" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
-<text x="0" y="21.59" size="1.4224" layer="94" ratio="10" align="center">BORON</text>
-<text x="-10.16" y="-24.13" size="1.4224" layer="95" align="top-left">&gt;NAME</text>
-</symbol>
 <symbol name="WM-N-BM-14" urn="urn:adsk.eagle:symbol:5952908/1">
 <pin name="GND@1" x="22.86" y="-5.08" length="middle" rot="R90"/>
 <pin name="VBAT_WL@2" x="53.34" y="101.6" length="middle" rot="R270"/>
@@ -6939,6 +7091,89 @@ Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&
 <pin name="WKP" x="-19.05" y="29.21" length="short"/>
 <text x="0" y="0" size="1.778" layer="94" align="center">PARTICLE
 E0</text>
+</symbol>
+<symbol name="BORON">
+<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
+The Particle Boron cellular enabled development kit that can act as either a standalone cellular device or LTE enabled gateway, repeater, or endpoint for a Particle Mesh networks.&lt;br&gt;
+More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;br&gt;
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;</description>
+<pin name="!RST" x="-12.7" y="17.78" visible="pin" length="short" direction="in"/>
+<pin name="3V3" x="-12.7" y="15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="MODE" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="GND" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="A0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="A1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="A2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="A3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="A4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="A5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="SCK" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="MOSI" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="MISO" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="RX" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="TX" x="-12.7" y="-17.78" visible="pin" length="short"/>
+<pin name="NC" x="-12.7" y="-20.32" visible="pin" length="short"/>
+<pin name="SDA" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="D2" x="12.7" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="D3" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="D4" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="D5" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="D6" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="D7" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="D8" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="VUSB" x="12.7" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="12.7" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="LI+" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="21.59" size="1.4224" layer="94" ratio="10" align="center">BORON</text>
+<text x="-10.16" y="-24.13" size="1.4224" layer="95" align="top-left">&gt;NAME</text>
+</symbol>
+<symbol name="PHOTON2">
+<description>Particle Photon 2 Wi-Fi Device</description>
+<pin name="!RST" x="-12.7" y="17.78" visible="pin" length="short" direction="in"/>
+<pin name="3V3" x="-12.7" y="15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="MODE" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="GND" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="A0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="A1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="A2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="A5" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="S4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="S3" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="SCK" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="MOSI" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="MISO" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="RX" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="TX" x="-12.7" y="-17.78" visible="pin" length="short"/>
+<pin name="NC" x="-12.7" y="-20.32" visible="pin" length="short"/>
+<pin name="SDA" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="D2" x="12.7" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="D3" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="D4" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="D5" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="D6" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="D7" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="D10" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="VUSB" x="12.7" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="12.7" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="LI+" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="21.59" size="1.4224" layer="94" ratio="10" align="center">PHOTON 2</text>
+<text x="-10.16" y="-24.13" size="1.4224" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7737,9 +7972,9 @@ Key = E&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARGON" urn="urn:adsk.eagle:component:10606120/2" prefix="U1">
+<deviceset name="ARGON" urn="urn:adsk.eagle:component:10606120/2" locally_modified="yes" prefix="U1">
 <description>&lt;b&gt;ARGON&lt;/b&gt;&lt;p&gt;
-The Particle Argon is a powerful Wi-Fi development kit that you can use as a standalone Wi-Fi device or Wi-Fi enabled gateway, repeater, or endpoint for Particle Mesh networks.&lt;br&gt;
+The Particle Argon is a powerful Wi-Fi development kit.&lt;br&gt;
 More information: &lt;a href="https://docs.particle.io/argon/"&gt;https://docs.particle.io/argon/&lt;/a&gt;&lt;br&gt;
 Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;</description>
 <gates>
@@ -7779,55 +8014,6 @@ Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:10606117/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BORON" urn="urn:adsk.eagle:component:10606119/2" prefix="U1">
-<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
-The Particle Boron cellular enabled development kit that can act as either a standalone cellular device or LTE enabled gateway, repeater, or endpoint for a Particle Mesh networks.&lt;br&gt;
-More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;br&gt;
-Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;</description>
-<gates>
-<gate name="U1" symbol="BORON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BORON">
-<connects>
-<connect gate="U1" pin="!RST" pad="1"/>
-<connect gate="U1" pin="3V3" pad="2"/>
-<connect gate="U1" pin="A0" pad="5"/>
-<connect gate="U1" pin="A1" pad="6"/>
-<connect gate="U1" pin="A2" pad="7"/>
-<connect gate="U1" pin="A3" pad="8"/>
-<connect gate="U1" pin="A4" pad="9"/>
-<connect gate="U1" pin="A5" pad="10"/>
-<connect gate="U1" pin="D2" pad="19"/>
-<connect gate="U1" pin="D3" pad="20"/>
-<connect gate="U1" pin="D4" pad="21"/>
-<connect gate="U1" pin="D5" pad="22"/>
-<connect gate="U1" pin="D6" pad="23"/>
-<connect gate="U1" pin="D7" pad="24"/>
-<connect gate="U1" pin="D8" pad="25"/>
-<connect gate="U1" pin="EN" pad="27"/>
-<connect gate="U1" pin="GND" pad="4"/>
-<connect gate="U1" pin="LI+" pad="28"/>
-<connect gate="U1" pin="MISO" pad="13"/>
-<connect gate="U1" pin="MODE" pad="3"/>
-<connect gate="U1" pin="MOSI" pad="12"/>
-<connect gate="U1" pin="NC" pad="16"/>
-<connect gate="U1" pin="RX" pad="14"/>
-<connect gate="U1" pin="SCK" pad="11"/>
-<connect gate="U1" pin="SCL" pad="18"/>
-<connect gate="U1" pin="SDA" pad="17"/>
-<connect gate="U1" pin="TX" pad="15"/>
-<connect gate="U1" pin="VUSB" pad="26"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10606116/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -8153,6 +8339,169 @@ More information: https://docs.particle.io/datasheets/asset-tracking/tracker-som
 <connect gate="G$1" pin="VDDA" pad="10"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="WKP" pad="19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BORON" prefix="U">
+<description>&lt;b&gt;BORON&lt;/b&gt;&lt;p&gt;
+The Particle Boron cellular enabled development kit.&lt;br&gt;
+More information: &lt;a href="https://docs.particle.io/boron/"&gt;https://docs.particle.io/boron/&lt;/a&gt;&lt;br&gt;
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;</description>
+<gates>
+<gate name="U1" symbol="BORON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BORON">
+<connects>
+<connect gate="U1" pin="!RST" pad="1"/>
+<connect gate="U1" pin="3V3" pad="2"/>
+<connect gate="U1" pin="A0" pad="5"/>
+<connect gate="U1" pin="A1" pad="6"/>
+<connect gate="U1" pin="A2" pad="7"/>
+<connect gate="U1" pin="A3" pad="8"/>
+<connect gate="U1" pin="A4" pad="9"/>
+<connect gate="U1" pin="A5" pad="10"/>
+<connect gate="U1" pin="D2" pad="19"/>
+<connect gate="U1" pin="D3" pad="20"/>
+<connect gate="U1" pin="D4" pad="21"/>
+<connect gate="U1" pin="D5" pad="22"/>
+<connect gate="U1" pin="D6" pad="23"/>
+<connect gate="U1" pin="D7" pad="24"/>
+<connect gate="U1" pin="D8" pad="25"/>
+<connect gate="U1" pin="EN" pad="27"/>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="LI+" pad="28"/>
+<connect gate="U1" pin="MISO" pad="13"/>
+<connect gate="U1" pin="MODE" pad="3"/>
+<connect gate="U1" pin="MOSI" pad="12"/>
+<connect gate="U1" pin="NC" pad="16"/>
+<connect gate="U1" pin="RX" pad="14"/>
+<connect gate="U1" pin="SCK" pad="11"/>
+<connect gate="U1" pin="SCL" pad="18"/>
+<connect gate="U1" pin="SDA" pad="17"/>
+<connect gate="U1" pin="TX" pad="15"/>
+<connect gate="U1" pin="VUSB" pad="26"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10606116/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BORON-SMD" package="BORON-SMD">
+<connects>
+<connect gate="U1" pin="!RST" pad="1"/>
+<connect gate="U1" pin="3V3" pad="2"/>
+<connect gate="U1" pin="A0" pad="5"/>
+<connect gate="U1" pin="A1" pad="6"/>
+<connect gate="U1" pin="A2" pad="7"/>
+<connect gate="U1" pin="A3" pad="8"/>
+<connect gate="U1" pin="A4" pad="9"/>
+<connect gate="U1" pin="A5" pad="10"/>
+<connect gate="U1" pin="D2" pad="19"/>
+<connect gate="U1" pin="D3" pad="20"/>
+<connect gate="U1" pin="D4" pad="21"/>
+<connect gate="U1" pin="D5" pad="22"/>
+<connect gate="U1" pin="D6" pad="23"/>
+<connect gate="U1" pin="D7" pad="24"/>
+<connect gate="U1" pin="D8" pad="25"/>
+<connect gate="U1" pin="EN" pad="27"/>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="LI+" pad="28"/>
+<connect gate="U1" pin="MISO" pad="13"/>
+<connect gate="U1" pin="MODE" pad="3"/>
+<connect gate="U1" pin="MOSI" pad="12"/>
+<connect gate="U1" pin="NC" pad="16"/>
+<connect gate="U1" pin="RX" pad="14"/>
+<connect gate="U1" pin="SCK" pad="11"/>
+<connect gate="U1" pin="SCL" pad="18"/>
+<connect gate="U1" pin="SDA" pad="17"/>
+<connect gate="U1" pin="TX" pad="15"/>
+<connect gate="U1" pin="VUSB" pad="26"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PHOTON2" prefix="U">
+<description>&lt;b&gt;Particle Photon 2 Wi-Fi enabled development kit&lt;/b&gt;&lt;p&gt;
+Footprint and formfactor based on &lt;a href="https://www.adafruit.com/feather"&gt;Adafruit Feather.&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PHOTON2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PHOTON2">
+<connects>
+<connect gate="G$1" pin="!RST" pad="1"/>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="A0" pad="5"/>
+<connect gate="G$1" pin="A1" pad="6"/>
+<connect gate="G$1" pin="A2" pad="7"/>
+<connect gate="G$1" pin="A5" pad="8"/>
+<connect gate="G$1" pin="D10" pad="25"/>
+<connect gate="G$1" pin="D2" pad="19"/>
+<connect gate="G$1" pin="D3" pad="20"/>
+<connect gate="G$1" pin="D4" pad="21"/>
+<connect gate="G$1" pin="D5" pad="22"/>
+<connect gate="G$1" pin="D6" pad="23"/>
+<connect gate="G$1" pin="D7" pad="24"/>
+<connect gate="G$1" pin="EN" pad="27"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="LI+" pad="28"/>
+<connect gate="G$1" pin="MISO" pad="13"/>
+<connect gate="G$1" pin="MODE" pad="3"/>
+<connect gate="G$1" pin="MOSI" pad="12"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="RX" pad="14"/>
+<connect gate="G$1" pin="S3" pad="10"/>
+<connect gate="G$1" pin="S4" pad="9"/>
+<connect gate="G$1" pin="SCK" pad="11"/>
+<connect gate="G$1" pin="SCL" pad="18"/>
+<connect gate="G$1" pin="SDA" pad="17"/>
+<connect gate="G$1" pin="TX" pad="15"/>
+<connect gate="G$1" pin="VUSB" pad="26"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PHOTON2-SMD" package="PHOTON2-SMD">
+<connects>
+<connect gate="G$1" pin="!RST" pad="1"/>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="A0" pad="5"/>
+<connect gate="G$1" pin="A1" pad="6"/>
+<connect gate="G$1" pin="A2" pad="7"/>
+<connect gate="G$1" pin="A5" pad="8"/>
+<connect gate="G$1" pin="D10" pad="25"/>
+<connect gate="G$1" pin="D2" pad="19"/>
+<connect gate="G$1" pin="D3" pad="20"/>
+<connect gate="G$1" pin="D4" pad="21"/>
+<connect gate="G$1" pin="D5" pad="22"/>
+<connect gate="G$1" pin="D6" pad="23"/>
+<connect gate="G$1" pin="D7" pad="24"/>
+<connect gate="G$1" pin="EN" pad="27"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="LI+" pad="28"/>
+<connect gate="G$1" pin="MISO" pad="13"/>
+<connect gate="G$1" pin="MODE" pad="3"/>
+<connect gate="G$1" pin="MOSI" pad="12"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="RX" pad="14"/>
+<connect gate="G$1" pin="S3" pad="10"/>
+<connect gate="G$1" pin="S4" pad="9"/>
+<connect gate="G$1" pin="SCK" pad="11"/>
+<connect gate="G$1" pin="SCL" pad="18"/>
+<connect gate="G$1" pin="SDA" pad="17"/>
+<connect gate="G$1" pin="TX" pad="15"/>
+<connect gate="G$1" pin="VUSB" pad="26"/>
 </connects>
 <technologies>
 <technology name=""/>
