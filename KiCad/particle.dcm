@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ELECTRON
+D Internet of Things cellular hardware development kit from Particle Industries
+K particle electron cell sim iot
+F https://docs.particle.io/datasheets/electron-(cellular)/electron-datasheet/
+$ENDCMP
+#
+$CMP PHOTON
+D Internet of Things wifi hardware development kit from Particle Industries
+K particle photon wifi arm
+F https://docs.particle.io/datasheets/photon-(wifi)/photon-datasheet/
+$ENDCMP
+#
+#End Doc Library
