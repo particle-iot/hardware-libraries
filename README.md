@@ -20,28 +20,21 @@ In this repository you'll find libraries of Particle devices for use in CAD soft
 
 ## PCB Footprints (land pattern)
 
-PCB footprints or land patterns for Eagle are provided as a reference and you may need to adjust them for your application.
+There are PCB Footprints in EagleCAD format in Particle-Devices.lbr in the Eagle directory.
 
-[Download the Eagle library][eagle-library], unzip it and place it in your Eagle libraries folder.
+### EagleCAD alternatives
 
-If you would like to contribute a library with the PCB footprints for another software, like KiCad, please [submit a pull request.][pr]
+Autodesk has discontinued EagleCAD, here are some alternatives:
 
-See the documentation for more details on the recommended PCB foot prints.
+|                       | Autodesk Fusion | KiCAD   | EasyEDA |
+| :-------------------- | :-------------: | :-----: | :-----: |
+| Import projects       | &check;         | &check; | &check; |
+| Import libraries      | &check;         |         | &check; |
+| Cost                  | Expensive       | Free    | Free    |
 
-* [Electron][pcb-footprint-electron]
-* [Photon with headers][pcb-footprint-photon]
-* [Photon surface mount][pcb-footprint-photon-smd]
+The easiest and least expensive is EasyEDA because it is able to import the .lbr library files that include the footprints.
 
-### How to Use Eagle
-
-If you need more information about how to use Eagle, check out the Sparkfun Eagle Tutorials: 
-
-* [Installing an Eagle Library](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle#using-the-sparkfun-libraries)
-* [Installing Eagle](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle)
-* [Creating Schematics](https://learn.sparkfun.com/tutorials/using-eagle-schematic)
-* [Creating Boards](https://learn.sparkfun.com/tutorials/using-eagle-board-layout)
-* [Designing Custom Footprints](https://learn.sparkfun.com/tutorials/designing-pcbs-smd-footprints)
-* [Creating Footprints from Digital Imagery](https://learn.sparkfun.com/tutorials/making-custom-footprints-in-eagle)
+KiCAD is a popular free alternative, and there is an Eagle library importer, but it only works with Eagle 6 and Eagle 7 libraries and the libraries here are Eagle 9 libraries. Many projects can be imported, however.
 
 ## 3D CAD Models
 
